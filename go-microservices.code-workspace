@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "project"
+		},
+		{
+			"path": "broker-service"
+		},
+		{
+			"path": "front-end"
+		},
+		{
+			"path": "authentication-service"
+		},
+		{
+			"path": "logger-service"
+		},
+		{
+			"path": "mail-service"
+		},
+		{
+			"path": "listener-service"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "postgres",
+				"username": "postgres",
+				"password": "password",
+				"database": "users"
+			}
+		]
+	}
+}
